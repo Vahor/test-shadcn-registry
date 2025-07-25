@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "llms.txt",
+  "type": "registry:item",
+  "description": "A markdown version of your pages",
+  "dependencies": [
+    "@vahor/llms-txt"
+  ],
+  "files": [
+    {
+      "path": "registry/functionality/llms-txt/README.md",
+      "content": "- needs to update package.json\n- needs to update script for the main title, description, site url..\n",
+      "type": "registry:file",
+      "target": "README.md"
+    },
+    {
+      "path": "registry/functionality/llms-txt/script.ts",
+      "content": "",
+      "type": "registry:file",
+      "target": "~/scripts/generate-llms-txt.ts"
+    }
+  ]
+}
