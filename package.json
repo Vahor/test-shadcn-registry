@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@vahor/llms-txt": "^0.1.0",
-    "shadcn": "^2.4.1"
+    "shadcn": "^3.6.3"
   },
   "devDependencies": {
     "typescript": "^5"
